@@ -35,6 +35,7 @@ namespace Habit_tracker.Classes
             completed = false;
             CompletedDates = new List<DateTime>();
             lastDate = firstDate;
+            //constructor
         }
 
         public Habit(string title, HabitType type, DateTime firstDate, Frequency frequency)
