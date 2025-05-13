@@ -171,7 +171,7 @@ namespace Habit_tracker
             mainWindow.RefreshCalendar(DateTime.Now, Habits.ToList());
 
         }
-        public void DeleteSelectedHabit()
+        public void DeleteSelectedHabit()//deletes currently selected habit from the list and then refereshes the window
         {
             if (SelectedHabit != null && Habits.Contains(SelectedHabit))
             {
@@ -219,7 +219,7 @@ namespace Habit_tracker
                 Habits.Add(habit);
             }
         }
-        private void OpenDetailsWindow()
+        private void OpenDetailsWindow()//initializes and opens dialog
         {
             if (SelectedHabit != null)
             {
