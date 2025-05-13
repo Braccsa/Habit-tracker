@@ -139,7 +139,7 @@ namespace Habit_tracker
 
 
         }
-        public void AddHabit()
+        public void AddHabit()//refreshes calendar by rebuilding from the updated list
         {
             if(CurrentHabit.Frequency==Frequency.once &&
                 CurrentHabit.FirstDate > CurrentHabit.LastDate)
