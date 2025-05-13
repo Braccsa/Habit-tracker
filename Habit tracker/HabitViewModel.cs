@@ -219,7 +219,7 @@ namespace Habit_tracker
                 Habits.Add(habit);
             }
         }
-        private void OpenDetailsWindow()
+        private void OpenDetailsWindow()//initializes and opens dialog
         {
             if (SelectedHabit != null)
             {
